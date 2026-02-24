@@ -28,7 +28,7 @@ jobs:
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
           TEST_LABELS_CSV: ${{ secrets.TEST_LABELS_CSV }}
-        run: python scripts/process_google_form_submissions.py
+        run: python competition/process_google_form_submissions.py
       
       - name: Commit Changes
         run: |
