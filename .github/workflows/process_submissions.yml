@@ -1,0 +1,39 @@
+name: Process Google Form Submissions
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [form-submission]
+
+jobs:
+  process-submissions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Process Submissions
+        env:
+          GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          TEST_LABELS_CSV: ${{ secrets.TEST_LABELS_CSV }}
+        run: python scripts/process_google_form_submissions.py
+      
+      - name: Commit Changes
+        run: |
+          git config user.name "NetLinkArena Bot"
+          git config user.email "bot@netlinkarena.com"
+          git add leaderboard/ docs/leaderboard.csv
+          git diff --staged --quiet || git commit -m "🏆 Auto-update leaderboard"
+          git push

@@ -17,6 +17,7 @@ datasets/
 seed.txt
 *.key
 *.env
+encryption/private_key.pem
 # ----------------------------
 # Ignore Python cache / compiled files
 # ----------------------------
@@ -44,3 +45,5 @@ Thumbs.db
 # ----------------------------
 NetLinkArena_Dataset.zip
 NetLinkArena_Dataset/
+# Encryption - never commit private key!
+encryption/private_key.pem
