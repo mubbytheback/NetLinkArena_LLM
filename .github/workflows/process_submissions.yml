@@ -1,6 +1,8 @@
 name: Process Google Form Submissions
 
 on:
+  schedule:
+    - cron: '*/15 * * * *'  # Every 15 minutes
   workflow_dispatch:
   repository_dispatch:
     types: [form-submission]
@@ -23,17 +25,31 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
       
+      - name: Setup Private Test Data
+        env:
+          TEST_LABELS_CSV: ${{ secrets.TEST_LABELS_CSV }}
+        run: |
+          mkdir -p data/private
+          echo "$TEST_LABELS_CSV" > data/private/test_labels.csv
+      
       - name: Process Submissions
         env:
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
           TEST_LABELS_CSV: ${{ secrets.TEST_LABELS_CSV }}
-        run: python competition/process_google_form_submissions.py
-      
-      - name: Commit Changes
         run: |
           git config user.name "NetLinkArena Bot"
           git config user.email "bot@netlinkarena.com"
-          git add leaderboard/ docs/leaderboard.csv
-          git diff --staged --quiet || git commit -m "🏆 Auto-update leaderboard"
-          git push
+          
+          python competition/process_google_form_submissions.py || echo "No new submissions"
+      
+      - name: Commit Changes
+        run: |
+          git add leaderboard/ docs/leaderboard.html
+          
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "🏆 Auto-update leaderboard"
+            git push
+          fi
