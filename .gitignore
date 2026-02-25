@@ -47,3 +47,7 @@ NetLinkArena_Dataset.zip
 NetLinkArena_Dataset/
 # Encryption - never commit private key!
 encryption/private_key.pem
+
+# Submissions (handled via Google Form)
+submissions/
+temp_submissions/
