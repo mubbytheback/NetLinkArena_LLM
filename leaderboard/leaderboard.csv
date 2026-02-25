@@ -1,3 +1,4 @@
 team,model,score,timestamp_utc,notes
-ignatiusbalayo,Baseline,0.5000,2026-02-14T14:05:14Z,Initial baseline
-testuser,Unknown,0.5000,2026-02-19T17:37:01Z,PR #2
+ignatiusbalayo,Baseline,0.5,2026-02-14T14:05:14Z,Initial baseline
+testuser,Unknown,0.5,2026-02-19T17:37:01Z,PR #2
+Travis_Leaders,GAT,0.5000,2/23/2026 22:04:14,Model: GAT
