@@ -1,6 +1,9 @@
+#!/usr/bin/env python3
+"""Render leaderboard CSV to markdown format."""
+
 import csv
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[1]
 CSV_PATH = ROOT / "leaderboard" / "leaderboard.csv"
@@ -28,18 +31,24 @@ def main():
         try:
             ts_str = r.get("timestamp_utc", "")
             if not ts_str:
-                return datetime.fromtimestamp(0)
-            return datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
-        except ValueError:
-            return datetime.fromtimestamp(0)
+                return datetime.min.replace(tzinfo=timezone.utc)
+            
+            # Handle both with and without timezone
+            if 'Z' in ts_str or '+' in ts_str:
+                dt = datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
+            else:
+                dt = datetime.fromisoformat(ts_str).replace(tzinfo=timezone.utc)
+            
+            return dt
+        except Exception:
+            return datetime.min.replace(tzinfo=timezone.utc)
     
     # Apply sorting
     rows.sort(key=lambda r: (score_key(r), ts_key(r)), reverse=True)
     
     lines = []
     lines.append("# Leaderboard\n\n")
-    lines.append("This leaderboard is **auto-updated** when a submission PR is merged. ")
-    lines.append("For interactive search and filters, enable GitHub Pages and open **/docs/leaderboard.html**.\n\n")
+    lines.append("This leaderboard is **auto-updated** when a submission is processed.\n\n")
     
     lines.append("| Rank | Team | Model | Score | Date (UTC) | Notes |\n")
     lines.append("|---:|---|---|---:|---|---|\n")
@@ -60,7 +69,6 @@ def main():
             score_float = float(score)
             if prev_score is None or score_float < prev_score:
                 current_rank = idx + 1
-            # If score_float == prev_score, keep current_rank (tied)
             prev_score = score_float
         except ValueError:
             current_rank = idx + 1
