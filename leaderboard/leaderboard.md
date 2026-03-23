@@ -6,6 +6,7 @@ This leaderboard is **auto-updated** when a submission is processed.
 |---:|---|---|---:|---|---|
 | 1 | VinitSingroha | `GAT` | 0.8914 | 3/14/2026 12:09:20 | Model: GAT |
 | 2 | Gurur Gamgam | `GAT` | 0.8898 | 3/17/2026 18:52:44 | Model: GAT |
-| 3 | nourMaj | `GAT` | 0.6976 | 3/21/2026 20:00:58 | Model: GAT |
-| 4 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
-| 5 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
+| 3 | faranbutt | `GAT` | 0.8336 | 3/23/2026 9:00:20 | Model: GAT |
+| 4 | nourMaj | `GAT` | 0.6976 | 3/21/2026 20:00:58 | Model: GAT |
+| 5 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
+| 6 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
