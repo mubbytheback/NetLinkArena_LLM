@@ -12,5 +12,6 @@ This leaderboard is **auto-updated** when a submission is processed.
 | 6 | Abderrahmane | `GAT` | 0.7423 | 4/3/2026 23:40:27 | Model: GAT |
 | 7 | Muhammad Isah | `GAT` | 0.7422 | 4/3/2026 2:45:52 | Model: GAT |
 | 8 | nourMaj | `GAT` | 0.6976 | 3/21/2026 20:00:58 | Model: GAT |
-| 9 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
-| 10 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
+| 9 | sanae Zrigui | `GCN` | 0.6244 | 4/4/2026 1:10:24 | Model: GCN |
+| 10 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
+| 11 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
