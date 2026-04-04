@@ -14,5 +14,6 @@ This leaderboard is **auto-updated** when a submission is processed.
 | 8 | nourMaj | `GAT` | 0.6976 | 3/21/2026 20:00:58 | Model: GAT |
 | 9 | sanae Zrigui | `GCN` | 0.6244 | 4/4/2026 1:10:24 | Model: GCN |
 | 10 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
-| 11 | samuelmatia | `GIN` | 0.5767 | 4/4/2026 2:46:48 | Model: GIN |
-| 12 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
+| 11 | Idrees_bhat | `GAT` | 0.5782 | 4/4/2026 8:54:07 | Model: GAT |
+| 12 | samuelmatia | `GIN` | 0.5767 | 4/4/2026 2:46:48 | Model: GIN |
+| 13 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
