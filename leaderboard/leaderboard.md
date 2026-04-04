@@ -17,3 +17,4 @@ This leaderboard is **auto-updated** when a submission is processed.
 | 11 | Idrees_bhat | `GAT` | 0.5782 | 4/4/2026 8:54:07 | Model: GAT |
 | 12 | samuelmatia | `GIN` | 0.5767 | 4/4/2026 2:46:48 | Model: GIN |
 | 13 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
+| 14 | El-Ikram | `GAT` | 0.5076 | 4/4/2026 19:30:43 | Model: GAT |
