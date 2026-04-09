@@ -13,9 +13,10 @@ This leaderboard is **auto-updated** when a submission is processed.
 | 7 | Abderrahmane | `GAT` | 0.7423 | 4/3/2026 23:40:27 | Model: GAT |
 | 8 | Muhammad Isah | `GAT` | 0.7422 | 4/3/2026 2:45:52 | Model: GAT |
 | 9 | nourMaj | `GAT` | 0.6976 | 3/21/2026 20:00:58 | Model: GAT |
-| 10 | sanae Zrigui | `GCN` | 0.6244 | 4/4/2026 1:10:24 | Model: GCN |
-| 11 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
-| 12 | Idrees_bhat | `GAT` | 0.5782 | 4/4/2026 8:54:07 | Model: GAT |
-| 13 | samuelmatia | `GIN` | 0.5767 | 4/4/2026 2:46:48 | Model: GIN |
-| 14 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
-| 15 | El-Ikram | `GAT` | 0.5076 | 4/4/2026 19:30:43 | Model: GAT |
+| 10 | Peguy | `GCN` | 0.6640 | 4/9/2026 12:10:37 | Model: GCN |
+| 11 | sanae Zrigui | `GCN` | 0.6244 | 4/4/2026 1:10:24 | Model: GCN |
+| 12 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
+| 13 | Idrees_bhat | `GAT` | 0.5782 | 4/4/2026 8:54:07 | Model: GAT |
+| 14 | samuelmatia | `GIN` | 0.5767 | 4/4/2026 2:46:48 | Model: GIN |
+| 15 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
+| 16 | El-Ikram | `GAT` | 0.5076 | 4/4/2026 19:30:43 | Model: GAT |
