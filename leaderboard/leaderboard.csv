@@ -14,4 +14,5 @@ samuelmatia,GIN,0.5767,4/4/2026 2:46:48,Model: GIN
 Idrees_bhat,GAT,0.5782,4/4/2026 8:54:07,Model: GAT
 El-Ikram,GAT,0.5076,4/4/2026 19:30:43,Model: GAT
 TugaYousif,GAT,0.7826,4/5/2026 6:56:12,Model: GAT
-Peguy,GCN,0.6640,4/9/2026 12:10:37,Model: GCN
+Peguy,GCN,0.664,4/9/2026 12:10:37,Model: GCN
+MahaTeam,GAT,0.7095,4/15/2026 20:30:49,Model: GAT
