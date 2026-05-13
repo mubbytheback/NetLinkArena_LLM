@@ -16,10 +16,11 @@ This leaderboard is **auto-updated** when a submission is processed.
 | 10 | MahaTeam | `GAT` | 0.7095 | 4/15/2026 20:30:49 | Model: GAT |
 | 11 | nourMaj | `GAT` | 0.6976 | 3/21/2026 20:00:58 | Model: GAT |
 | 12 | LLM_Claude_Opus_47 | `GRAPHSAGE` | 0.6962 | 5/6/2026 3:21:01 | Model: GRAPHSAGE |
-| 13 | Peguy | `GCN` | 0.6640 | 4/9/2026 12:10:37 | Model: GCN |
-| 14 | sanae Zrigui | `GCN` | 0.6244 | 4/4/2026 1:10:24 | Model: GCN |
-| 15 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
-| 16 | Idrees_bhat | `GAT` | 0.5782 | 4/4/2026 8:54:07 | Model: GAT |
-| 17 | samuelmatia | `GIN` | 0.5767 | 4/4/2026 2:46:48 | Model: GIN |
-| 18 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
-| 19 | El-Ikram | `GAT` | 0.5076 | 4/4/2026 19:30:43 | Model: GAT |
+| 13 | LLM_Gemini_3_Flash | `GRAPHSAGE` | 0.6831 | 5/13/2026 21:40:10 | Model: GRAPHSAGE |
+| 14 | Peguy | `GCN` | 0.6640 | 4/9/2026 12:10:37 | Model: GCN |
+| 15 | sanae Zrigui | `GCN` | 0.6244 | 4/4/2026 1:10:24 | Model: GCN |
+| 16 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
+| 17 | Idrees_bhat | `GAT` | 0.5782 | 4/4/2026 8:54:07 | Model: GAT |
+| 18 | samuelmatia | `GIN` | 0.5767 | 4/4/2026 2:46:48 | Model: GIN |
+| 19 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
+| 20 | El-Ikram | `GAT` | 0.5076 | 4/4/2026 19:30:43 | Model: GAT |
