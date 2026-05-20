@@ -26,5 +26,7 @@ This leaderboard is **auto-updated** when a submission is processed.
 | 20 | hadilaff | `GCN` | 0.6076 | 3/8/2026 0:15:13 | Model: GCN |
 | 21 | Idrees_bhat | `GAT` | 0.5782 | 4/4/2026 8:54:07 | Model: GAT |
 | 22 | samuelmatia | `GIN` | 0.5767 | 4/4/2026 2:46:48 | Model: GIN |
-| 23 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
-| 24 | El-Ikram | `GAT` | 0.5076 | 4/4/2026 19:30:43 | Model: GAT |
+| 23 | Qwen2.5-Coder-32B-Instruct | `Add Other` | 0.5481 | 5/20/2026 7:08:42 | Model: Add Other |
+| 24 | Tasneem Selim | `GRAPHSAGE` | 0.5201 | 3/9/2026 17:40:33 | Model: GRAPHSAGE |
+| 25 | El-Ikram | `GAT` | 0.5076 | 4/4/2026 19:30:43 | Model: GAT |
+| 26 | llm_llama33_70b | `GCN` | 0.5000 | 5/19/2026 19:06:32 | Model: GCN |
