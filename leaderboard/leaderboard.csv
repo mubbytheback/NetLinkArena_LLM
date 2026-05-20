@@ -23,4 +23,5 @@ DeepSeek-v4-pro,Add Other,0.6646,5/15/2026 19:13:12,Model: Add Other
 llm_claude_opus-47,GRAPHSAGE,0.6955,5/16/2026 15:19:27,Model: GRAPHSAGE
 Claude_opus_4_6,GCN,0.7814,5/16/2026 21:18:25,Model: GCN
 Mounia-z,Add Other,0.8393,5/17/2026 22:23:14,Model: Add Other
-llm_llama33_70b,GCN,0.5000,5/19/2026 19:06:32,Model: GCN
+llm_llama33_70b,GCN,0.5,5/19/2026 19:06:32,Model: GCN
+Qwen2.5-Coder-32B-Instruct,Add Other,0.5481,5/20/2026 7:08:42,Model: Add Other
